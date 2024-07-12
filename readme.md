@@ -1,8 +1,8 @@
 # COP 1334 Assignment - Introduction to C++
 
-## Chapter 6: Challenge 10
+## Chapter 11 Programming Assignment
 
-## Title: Future Value
+## Title: Struct Circle
 
 ### Exercise Description:
 
@@ -51,9 +51,34 @@ And in order to run that a.out file, we must execute on the terminal:
 ```terminal
 reinier@reinier % ./your_prefered_executable_file_name
 
+Welcome to Circle Setter Pro
 
-  
+1. Demonstration using a Circle structure variable.
+2. Another demonstration using an AlternativeCircle structure variable.
+3. Quit the program.
+
+Type your selection please (1 - 3): 1
+Type the radius of the circle please (in): 23
+
+A circle with a radius of 23 in has an area of 1,661.90 in² and a circumference of 144.51 in.
+
+1. Demonstration using a Circle structure variable.
+2. Another demonstration using an AlternativeCircle structure variable.
+3. Quit the program.
+
+Type your selection please (1 - 3): 2
+Type the radius of the alternative circle please (in): 23
+
+A circle with a radius of 23 in has an area of 1,661.90 in² and a circumference of 144.51 in.
+
+1. Demonstration using a Circle structure variable.
+2. Another demonstration using an AlternativeCircle structure variable.
+3. Quit the program.
+
+Type your selection please (1 - 3): 3
+
 Process finished with exit code 0
+  
 reinier@reinier % 
 ```
 
