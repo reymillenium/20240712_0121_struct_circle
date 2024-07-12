@@ -1,17 +1,18 @@
 /**
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *                                                                     *
- *   Name: Reinier Garcia Ramos                                            *
+ *   Name: Reinier Garcia Ramos                                        *
  *                                                                     *
- *   Program Title: Struct Circle                                            *
+ *   Program Title: Struct Circle                                      *
  *                                                                     *
  *   Purpose:                                                          *
- *   Receives the radius as  an integer provided by the user
- *   from the console, and stores them in an array. And then based on them, it           *
- *   calculates the sum, the average and the largest element.          *
+ *   Receives the radius as an integer provided by the user from the   *
+ *   console, and stores it in a Circle structure variable. And then   *
+ *   based on it, it calculates the circumference and the area of      *
+ *   the circle.                                                       *
  *                                                                     *
  *   More Details:                                                     *
- *   https://github.com/reymillenium/20240621_0127_arrays_intro        *
+ *   https://github.com/reymillenium/20240712_0121_struct_circl        *
  *                                                                     *
  *                                                                     *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
