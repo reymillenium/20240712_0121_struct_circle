@@ -114,7 +114,7 @@ void processSelection(int);
 // Main Function
 int main() {
     constexpr int QUITTING_OPTION = 3; // The option number on the menu that allows to quit the program
-    int menuSelectedOption = 0; // The selection made by the user from the options of the menu
+    int menuSelectedOption = QUITTING_OPTION; // The selection made by the user from the options of the menu
 
     // Shows the program's welcoming message
     showProgramWelcome();
@@ -244,7 +244,7 @@ void displayCircleInfo(const AlternativeCircle &aCircle) {
 // Shows all the relevant info inside a given Circle structure variable
 void displayCircleInfo(const Circle &aCircle) {
     cout << endl;
-    cout << "A circle with a radius of " << aCircle.radius << " in has an area of " << humanizeUnsignedDouble(aCircle.area) << " in²";
+    cout << "A circle with a radius of " << aCircle.radius << " in has an area of " << humanizeUnsignedDouble(aCircle.area) << " sq in";
     cout << " and a circumference of " << humanizeUnsignedDouble(aCircle.circumference) << " in." << endl;
 }
 
